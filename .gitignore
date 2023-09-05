@@ -1,2 +1,6 @@
 .idea/
 venv/
+logs/
+src/utils/__pycache__/
+.DS_Store
+*.pyc

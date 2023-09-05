@@ -17,7 +17,7 @@ class DataError(Exception):
 
 
 def read_json(path: str) -> dict:
-    """Reads the JSON file from the path provided
+    """Reads the JSON file from the path provided.
     Args:
         path: path to the JSOn file
 
@@ -32,41 +32,44 @@ def read_json(path: str) -> dict:
             data_json = json.load(file)
         return data_json
     except DataError:
-        logger.error('There was an issue')
+        logger.error('There was an issue loading the JSON file')
 
 
-def data_traversing(data: dict) -> list[list[Datawalk], list[str]]:
-    """Loads the data dictionary to a list of Datwalk objects with the relevant fields
+def data_traversing(data: dict) -> list[Datawalk]:
+    """Loads the data dictionary to a list of Datwalk objects with the relevant fields.
     Args:
         data: deserialized data from the JSON file
 
     Returns:
         dw_objs: list of objects with the required fields to remap the data into a new format
-        attr_list: list of attribute names
     """
     dw_objs = []
-    attr_list = []
     for key, value in data['classes'].items():
         if int(key) == value['id']:
-            attr_list.append(value['name'])
             [dw_objs.append(Datawalk(x['id'], x['name'], x['virtual'], value['name'])) for x in value['attributes']]
         else:
             logger.warning("Misalignment between key: %s and value ID: %d", key, value['id'])
-    return [dw_objs, attr_list]
+    return dw_objs
 
 
 def remap(parsed_data: list) -> dict:
-    objs, attrs = parsed_data[0], parsed_data[1]
+    """Builds a new formatted dictionary from the original dictionary.
+    Args:
+        parsed_data: list of objects with relevant data from the JSON file as attributes
+
+    Returns:
+        dict_maps: a dictionary formatted according to the new JSON requirements
+    """
     dict_maps = {"classes_with_virtual_attributes": [], "classes_without_virtual_attributes": []}
-    for obj in objs:
+    for obj in parsed_data:
         new_dict = {}
-        new, index = 0, 0
+        new, index = True, 0
         class_type = 'classes_with_virtual_attributes' if obj.virtual else 'classes_without_virtual_attributes'
         for i in range(len(dict_maps[class_type])):
             if obj.name_attr == dict_maps[class_type][i]['name']:
-                new, index = 1, i
+                new, index = False, i
                 break
-        if new == 0:
+        if new:
             new_dict['name'] = obj.name_attr
             new_dict['attributes'] = [{"name": obj.name_obj, "id": obj.id}]
             dict_maps[class_type].append(new_dict)
@@ -77,5 +80,11 @@ def remap(parsed_data: list) -> dict:
 
 
 def write_json(data: dict) -> None:
+    """Exporting the dictionary to a JSON file.
+    Args: dictionary with data remapped according to the requirements
+
+    Returns:
+        None
+    """
     with open('data/result.json', 'w') as f:
         json.dump(data, f)
