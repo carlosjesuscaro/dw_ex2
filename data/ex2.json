@@ -1,0 +1,5010 @@
+{
+  "classes": {
+    "1": {
+      "attributes": [
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1,
+          "name": "Name"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 2,
+          "name": "Surname"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 3,
+          "name": "E-mail"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 4,
+          "name": "Type"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 5,
+          "name": "Digest"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 6,
+          "name": "Status"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 7,
+          "name": "Login"
+        },
+        {
+          "virtual": false,
+          "dataType": "INT",
+          "id": 8,
+          "name": "Security level"
+        }
+      ],
+      "id": 1,
+      "name": "[DW] Users"
+    },
+    "3": {
+      "attributes": [
+        {
+          "virtual": true,
+          "dataType": "TEXT",
+          "id": 14,
+          "name": "Name"
+        },
+        {
+          "virtual": false,
+          "dataType": "INT",
+          "id": 15,
+          "name": "Id"
+        }
+      ],
+      "id": 3,
+      "name": "[DW] Sets"
+    },
+    "4": {
+      "attributes": [
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 16,
+          "name": "Name"
+        },
+        {
+          "virtual": false,
+          "dataType": "INT",
+          "id": 17,
+          "name": "Size"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 18,
+          "name": "Extension"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 19,
+          "name": "Mime Type"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 20,
+          "name": "File MD5"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 21,
+          "name": "URL"
+        }
+      ],
+      "id": 4,
+      "name": "[DW] Files"
+    },
+    "5": {
+      "attributes": [
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 22,
+          "name": "Key"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 23,
+          "name": "Description"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 24,
+          "name": "en_GB"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 25,
+          "name": "en_US"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 26,
+          "name": "es_CR"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 27,
+          "name": "pl_PL"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 28,
+          "name": "tr_TR"
+        }
+      ],
+      "id": 5,
+      "name": "[DW] i18n - Translations"
+    },
+    "6": {
+      "attributes": [
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 29,
+          "name": "Id"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 30,
+          "name": "Name"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 31,
+          "name": "Description"
+        },
+        {
+          "virtual": false,
+          "dataType": "INT",
+          "id": 32,
+          "name": "Provides structure"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 33,
+          "name": "Icon"
+        },
+        {
+          "virtual": false,
+          "dataType": "INT",
+          "id": 34,
+          "name": "Active"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 35,
+          "name": "Docker app path"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 36,
+          "name": "App MD5"
+        },
+        {
+          "virtual": false,
+          "dataType": "INT",
+          "id": 37,
+          "name": "Inner app"
+        },
+        {
+          "virtual": false,
+          "dataType": "INT",
+          "id": 38,
+          "name": "Compatibility mode"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 39,
+          "name": "App manifest"
+        }
+      ],
+      "id": 6,
+      "name": "[DW] Apps"
+    },
+    "7": {
+      "attributes": [
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 40,
+          "name": "Name"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 41,
+          "name": "Description"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 42,
+          "name": "Configuration"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 43,
+          "name": "Scheduler"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 44,
+          "name": "Script"
+        },
+        {
+          "virtual": false,
+          "dataType": "INT",
+          "id": 45,
+          "name": "Incremental"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 46,
+          "name": "Last value"
+        },
+        {
+          "virtual": false,
+          "dataType": "INT",
+          "id": 47,
+          "name": "Link Chart enable"
+        },
+        {
+          "virtual": false,
+          "dataType": "INT",
+          "id": 48,
+          "name": "Attribute trigger enable"
+        },
+        {
+          "virtual": false,
+          "dataType": "INT",
+          "id": 49,
+          "name": "Create set from script enable"
+        },
+        {
+          "virtual": false,
+          "dataType": "INT",
+          "id": 50,
+          "name": "Table View enable"
+        },
+        {
+          "virtual": false,
+          "dataType": "INT",
+          "id": 51,
+          "name": "Object Folder enable"
+        },
+        {
+          "virtual": false,
+          "dataType": "INT",
+          "id": 52,
+          "name": "Trigger app by alert enable"
+        },
+        {
+          "virtual": false,
+          "dataType": "FLOAT",
+          "id": 53,
+          "name": "Estimated cost"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 54,
+          "name": "Parameters"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 55,
+          "name": "Entity classes"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 56,
+          "name": "Concurrency strategy"
+        },
+        {
+          "virtual": false,
+          "dataType": "INT",
+          "id": 57,
+          "name": "Concurrency"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 58,
+          "name": "Structure config"
+        },
+        {
+          "virtual": false,
+          "dataType": "INT",
+          "id": 59,
+          "name": "Log executions to set"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 60,
+          "name": "Trigger config"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 61,
+          "name": "Docker extra params"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 62,
+          "name": "Vault config"
+        },
+        {
+          "virtual": false,
+          "dataType": "INT",
+          "id": 63,
+          "name": "Default app"
+        }
+      ],
+      "id": 7,
+      "name": "[DW] App configurations"
+    },
+    "8": {
+      "attributes": [
+        {
+          "virtual": false,
+          "dataType": "INT",
+          "id": 64,
+          "name": "App configuration Id"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 65,
+          "name": "App name"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 66,
+          "name": "App configuration name"
+        },
+        {
+          "virtual": false,
+          "dataType": "DATE",
+          "id": 67,
+          "name": "Start time"
+        },
+        {
+          "virtual": false,
+          "dataType": "DATE",
+          "id": 68,
+          "name": "End time"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 69,
+          "name": "Status"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 70,
+          "name": "Action"
+        },
+        {
+          "virtual": false,
+          "dataType": "INT",
+          "id": 71,
+          "name": "Started by user"
+        },
+        {
+          "virtual": false,
+          "dataType": "INT",
+          "id": 72,
+          "name": "Import ID"
+        }
+      ],
+      "id": 8,
+      "name": "[DW] App execution results"
+    },
+    "9": {
+      "attributes": [
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 73,
+          "name": "Name"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 74,
+          "name": "Version"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 75,
+          "name": "Description"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 76,
+          "name": "App Image MD5"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 77,
+          "name": "App Image manifest"
+        }
+      ],
+      "id": 9,
+      "name": "[DW] App images"
+    },
+    "10": {
+      "attributes": [
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 78,
+          "name": "Name"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1285,
+          "name": "ORIG_APP"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1286,
+          "name": "EMAIL"
+        },
+        {
+          "virtual": false,
+          "dataType": "INT",
+          "id": 1288,
+          "name": "CMX_CASE_CREATION"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1289,
+          "name": "STATUS"
+        }
+      ],
+      "id": 10,
+      "name": "[DW] Cases"
+    },
+    "11": {
+      "attributes": [
+        {
+          "virtual": false,
+          "dataType": "INT",
+          "id": 79,
+          "name": "Creator"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 80,
+          "name": "Title"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 81,
+          "name": "Note"
+        },
+        {
+          "virtual": false,
+          "dataType": "DATE",
+          "id": 82,
+          "name": "Creation Date"
+        }
+      ],
+      "id": 11,
+      "name": "[DW] Notes"
+    },
+    "12": {
+      "attributes": [
+        {
+          "virtual": false,
+          "dataType": "INT",
+          "id": 83,
+          "name": "Owner"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 84,
+          "name": "Name"
+        },
+        {
+          "virtual": false,
+          "dataType": "INT",
+          "id": 85,
+          "name": "Set"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 86,
+          "name": "Definition"
+        }
+      ],
+      "id": 12,
+      "name": "[DW] Views"
+    },
+    "13": {
+      "attributes": [
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 87,
+          "name": "Version"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 88,
+          "name": "Status"
+        },
+        {
+          "virtual": false,
+          "dataType": "DATE",
+          "id": 89,
+          "name": "Date"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 90,
+          "name": "Execute"
+        },
+        {
+          "virtual": true,
+          "dataType": "INT",
+          "id": 91,
+          "name": "Id"
+        }
+      ],
+      "id": 13,
+      "name": "[DW] Maintenance - Patch"
+    },
+    "14": {
+      "attributes": [
+        {
+          "virtual": false,
+          "dataType": "DATE",
+          "id": 92,
+          "name": "Backup creation date"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 93,
+          "name": "Backup name"
+        }
+      ],
+      "id": 14,
+      "name": "[DW] Maintenance - Backup"
+    },
+    "15": {
+      "attributes": [
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 94,
+          "name": "Name"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 95,
+          "name": "Description"
+        }
+      ],
+      "id": 15,
+      "name": "[DW] Groups"
+    },
+    "16": {
+      "attributes": [
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 96,
+          "name": "Job type"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 97,
+          "name": "UUID"
+        },
+        {
+          "virtual": false,
+          "dataType": "INT",
+          "id": 98,
+          "name": "Priority"
+        },
+        {
+          "virtual": false,
+          "dataType": "INT",
+          "id": 99,
+          "name": "Triggered by user"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 100,
+          "name": "Description"
+        },
+        {
+          "virtual": false,
+          "dataType": "DATE",
+          "id": 101,
+          "name": "Triggered time"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 102,
+          "name": "Configuration"
+        }
+      ],
+      "id": 16,
+      "name": "[DW] System jobs - base jobs"
+    },
+    "17": {
+      "attributes": [
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 103,
+          "name": "Job type"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 104,
+          "name": "UUID"
+        },
+        {
+          "virtual": false,
+          "dataType": "INT",
+          "id": 105,
+          "name": "Priority"
+        },
+        {
+          "virtual": false,
+          "dataType": "DATE",
+          "id": 106,
+          "name": "Start time"
+        },
+        {
+          "virtual": false,
+          "dataType": "DATE",
+          "id": 107,
+          "name": "End time"
+        },
+        {
+          "virtual": false,
+          "dataType": "INT",
+          "id": 108,
+          "name": "Duration (ms)"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 109,
+          "name": "Status"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 110,
+          "name": "Configuration"
+        }
+      ],
+      "id": 17,
+      "name": "[DW] System jobs - merged jobs"
+    },
+    "18": {
+      "attributes": [
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 111,
+          "name": "Dependency type"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 112,
+          "name": "Dependency id"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 113,
+          "name": "UUID"
+        },
+        {
+          "virtual": false,
+          "dataType": "DATE",
+          "id": 114,
+          "name": "Start Time"
+        },
+        {
+          "virtual": false,
+          "dataType": "DATE",
+          "id": 115,
+          "name": "End Time"
+        },
+        {
+          "virtual": false,
+          "dataType": "INT",
+          "id": 116,
+          "name": "Duration (ms)"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 117,
+          "name": "Status"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 118,
+          "name": "Config"
+        }
+      ],
+      "id": 18,
+      "name": "[DW] System jobs - dependency"
+    },
+    "19": {
+      "attributes": [
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 119,
+          "name": "User defined function Id"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 120,
+          "name": "Name"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 121,
+          "name": "Description"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 122,
+          "name": "Input attributes"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 123,
+          "name": "Input parameters"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 124,
+          "name": "Output"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 125,
+          "name": "Query"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 126,
+          "name": "UDTF Name"
+        }
+      ],
+      "id": 19,
+      "name": "[DW] User defined functions"
+    },
+    "20": {
+      "attributes": [
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 127,
+          "name": "Name"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 128,
+          "name": "Description"
+        },
+        {
+          "virtual": false,
+          "dataType": "INT",
+          "id": 129,
+          "name": "Is static"
+        },
+        {
+          "virtual": true,
+          "dataType": "INT",
+          "id": 130,
+          "name": "Dashboard id"
+        }
+      ],
+      "id": 20,
+      "name": "[DW] Dashboards"
+    },
+    "21": {
+      "attributes": [
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 131,
+          "name": "Name"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 132,
+          "name": "Chart source"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 133,
+          "name": "Chart mappings"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 134,
+          "name": "Chart type"
+        },
+        {
+          "virtual": true,
+          "dataType": "TEXT",
+          "id": 135,
+          "name": "Source app configuration name"
+        },
+        {
+          "virtual": true,
+          "dataType": "INT",
+          "id": 136,
+          "name": "Chart id"
+        },
+        {
+          "virtual": true,
+          "dataType": "TEXT",
+          "id": 137,
+          "name": "Dashboard ids"
+        }
+      ],
+      "id": 21,
+      "name": "[DW] Charts"
+    },
+    "22": {
+      "attributes": [
+        {
+          "virtual": true,
+          "dataType": "TEXT",
+          "id": 138,
+          "name": "Description"
+        },
+        {
+          "virtual": false,
+          "dataType": "FLOAT",
+          "id": 139,
+          "name": "Top"
+        },
+        {
+          "virtual": false,
+          "dataType": "FLOAT",
+          "id": 140,
+          "name": "Left"
+        },
+        {
+          "virtual": false,
+          "dataType": "FLOAT",
+          "id": 141,
+          "name": "Width"
+        },
+        {
+          "virtual": false,
+          "dataType": "FLOAT",
+          "id": 142,
+          "name": "Height"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 143,
+          "name": "Context"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 144,
+          "name": "Context key"
+        },
+        {
+          "virtual": false,
+          "dataType": "INT",
+          "id": 145,
+          "name": "Main entity class id"
+        },
+        {
+          "virtual": true,
+          "dataType": "INT",
+          "id": 146,
+          "name": "Related chart id"
+        },
+        {
+          "virtual": true,
+          "dataType": "INT",
+          "id": 147,
+          "name": "Related dashboard id"
+        }
+      ],
+      "id": 22,
+      "name": "[DW] Charts on dashboards"
+    },
+    "23": {
+      "attributes": [
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 148,
+          "name": "SourceID"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 149,
+          "name": "SourceType"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 150,
+          "name": "TargetID"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 151,
+          "name": "TargetType"
+        },
+        {
+          "virtual": true,
+          "dataType": "TEXT",
+          "id": 1265,
+          "name": "LABEL"
+        }
+      ],
+      "id": 23,
+      "name": "[DW] Dependencies - Edges"
+    },
+    "24": {
+      "attributes": [
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 152,
+          "name": "ID"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 153,
+          "name": "Type"
+        },
+        {
+          "virtual": false,
+          "dataType": "LONG_TEXT",
+          "id": 154,
+          "name": "Properties"
+        },
+        {
+          "virtual": true,
+          "dataType": "INT",
+          "id": 1277,
+          "name": "Exclude from broken columns?"
+        },
+        {
+          "virtual": true,
+          "dataType": "INT",
+          "id": 1278,
+          "name": "Has connectionTypeId"
+        },
+        {
+          "virtual": true,
+          "dataType": "INT",
+          "id": 1279,
+          "name": "Merged connection?"
+        }
+      ],
+      "id": 24,
+      "name": "[DW] Dependencies - Vertices"
+    },
+    "67": {
+      "attributes": [
+        {
+          "virtual": true,
+          "dataType": "FLOAT",
+          "id": 1219,
+          "name": "total_amt_payments_due"
+        },
+        {
+          "virtual": true,
+          "dataType": "FLOAT",
+          "id": 1220,
+          "name": "payment_vs_due_per"
+        },
+        {
+          "virtual": true,
+          "dataType": "INT",
+          "id": 1221,
+          "name": "delinquent severity"
+        },
+        {
+          "virtual": true,
+          "dataType": "INT",
+          "id": 1222,
+          "name": "cmt #"
+        },
+        {
+          "virtual": true,
+          "dataType": "INT",
+          "id": 1223,
+          "name": "cmx #"
+        },
+        {
+          "virtual": true,
+          "dataType": "FLOAT",
+          "id": 1226,
+          "name": "bad performance indicator"
+        },
+        {
+          "virtual": true,
+          "dataType": "INT",
+          "id": 1227,
+          "name": "cmt # indicator"
+        },
+        {
+          "virtual": true,
+          "dataType": "INT",
+          "id": 1228,
+          "name": "cmx # indicator"
+        },
+        {
+          "virtual": false,
+          "dataType": "FLOAT",
+          "id": 830,
+          "name": "BALANCE"
+        },
+        {
+          "virtual": false,
+          "dataType": "FLOAT",
+          "id": 831,
+          "name": "AVAILABLE_BALANCE"
+        },
+        {
+          "virtual": false,
+          "dataType": "FLOAT",
+          "id": 832,
+          "name": "AVERAGE_DAILY_BALANCE"
+        },
+        {
+          "virtual": false,
+          "dataType": "FLOAT",
+          "id": 833,
+          "name": "LOSS_TOT_AMT"
+        },
+        {
+          "virtual": false,
+          "dataType": "FLOAT",
+          "id": 834,
+          "name": "MONTHLYPAYMENT"
+        },
+        {
+          "virtual": false,
+          "dataType": "DATE",
+          "id": 835,
+          "name": "APPROVEDDATE"
+        },
+        {
+          "virtual": false,
+          "dataType": "DATE",
+          "id": 836,
+          "name": "FIRST_DEPOSIT_DATE"
+        },
+        {
+          "virtual": false,
+          "dataType": "DATE",
+          "id": 837,
+          "name": "FILE_DATE"
+        },
+        {
+          "virtual": false,
+          "dataType": "DATE",
+          "id": 838,
+          "name": "SERVICEDATE"
+        },
+        {
+          "virtual": false,
+          "dataType": "DATE",
+          "id": 839,
+          "name": "SERVICINGACCOUNTCREATEDDATE"
+        },
+        {
+          "virtual": false,
+          "dataType": "DATE",
+          "id": 840,
+          "name": "NOTE_DATE"
+        },
+        {
+          "virtual": false,
+          "dataType": "DATE",
+          "id": 841,
+          "name": "ACCOUNT_OPENED/BOOKING/FUNDING DATE"
+        },
+        {
+          "virtual": false,
+          "dataType": "DATE",
+          "id": 842,
+          "name": "FIRST_PYMT_DUE_DT"
+        },
+        {
+          "virtual": false,
+          "dataType": "DATE",
+          "id": 843,
+          "name": "UPDATED_DATE"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 844,
+          "name": "BR_NUM"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 845,
+          "name": "ACCOUNT_NUMBER"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 846,
+          "name": "APPID"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 847,
+          "name": "LOB"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 848,
+          "name": "CUSTOMER_ID"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 849,
+          "name": "SECONDARY_CIF_1"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 850,
+          "name": "SECONDARY_CIF_2"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 851,
+          "name": "SECONDARY_CIF_3"
+        },
+        {
+          "virtual": false,
+          "dataType": "DATE",
+          "id": 852,
+          "name": "ACCOUNT_CLOSED/TERMINATION DATE"
+        },
+        {
+          "virtual": false,
+          "dataType": "FLOAT",
+          "id": 853,
+          "name": "CONTRACT_AMOUNT"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 854,
+          "name": "ACCOUNT_NUM_9"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 855,
+          "name": "ACCOUNT_STATUS"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 856,
+          "name": "ACCT_NUM"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 857,
+          "name": "ADDON"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 858,
+          "name": "AGRMNT_NUM"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 859,
+          "name": "APPROVEDAMOUNT"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 860,
+          "name": "ARRGMNT_ID"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 861,
+          "name": "SKIP_IND"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 862,
+          "name": "TERM_STAT_DESC"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 863,
+          "name": "TERMNT_PROCS_STATUS_DESC"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 864,
+          "name": "REPO_IND"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 865,
+          "name": "BANKRUPTCY_INDICATOR"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 866,
+          "name": "BASEAPR"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 867,
+          "name": "BASETERM"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 868,
+          "name": "BRANCH_ID"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 869,
+          "name": "CHANNEL"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 870,
+          "name": "CHANNEL_DESCRIPTION"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 871,
+          "name": "CLTV"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 872,
+          "name": "CURRENT_LTV"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 873,
+          "name": "CURRENT_OCCUPANCY_DESCRIPTION"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 874,
+          "name": "DOWNPAYMENT"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 875,
+          "name": "PRODUCT_TYPE"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 876,
+          "name": "PRODUCT_TYPE_DESCRIPTION"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 877,
+          "name": "INITIALREQUESTAMOUNT"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 878,
+          "name": "LOAN_STATUS_DESCRIPTION"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 879,
+          "name": "LOAN_SUB_TYPE"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 880,
+          "name": "LOAN_SUB_TYPE_CODE"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 881,
+          "name": "LOAN_TYPE_CODE"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 882,
+          "name": "PROMOTIONMONTHLYPAYMENT"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 883,
+          "name": "PROMOTIONAPR"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 884,
+          "name": "MERCHANTDISCOUNTFEE"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 885,
+          "name": "PARTNERACCOUNTNUMBER"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 886,
+          "name": "PROVIDER"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 887,
+          "name": "MONTHLY_INCOME"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 888,
+          "name": "ORIGINAL_LTV"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 889,
+          "name": "PAYMENT_METHOD"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 890,
+          "name": "PRINCIPAL_PAYMENT"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 891,
+          "name": "REFI_REASON"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 892,
+          "name": "TERM"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 893,
+          "name": "REFI_PURPOSE"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 894,
+          "name": "SELF_EMPLOYED_INDICATOR"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 895,
+          "name": "STATED_INCOME_FLAG"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 896,
+          "name": "PRODUCT_CODE"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 897,
+          "name": "PRODUCT_CATEGORY"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 898,
+          "name": "PRODUCT_SUB_CATEGORY"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 899,
+          "name": "PROPERTY_ID"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 900,
+          "name": "PROP_ADDRESS_LINE_1"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 901,
+          "name": "PROP_ADDRESS_LINE_2"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 902,
+          "name": "PROP_ADDRESS_LINE_3"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 903,
+          "name": "PROP_CITY"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 904,
+          "name": "PROP_ZIP"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 905,
+          "name": "PROP_COUNTY_NAME"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 906,
+          "name": "PROP_COUNTRY"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 907,
+          "name": "PROPERTY_TYPE"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 908,
+          "name": "ORIGINAL_LOAN_PURPOSE"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 909,
+          "name": "ORIGINAL_LOAN_TYPE"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 910,
+          "name": "ORIGINAL_DTI"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 911,
+          "name": "ORIGINAL_TERM"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 912,
+          "name": "PRODUCT_ID"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 913,
+          "name": "PRODUCT_NAME"
+        },
+        {
+          "virtual": true,
+          "dataType": "INT",
+          "id": 914,
+          "name": "loss_tot_amt_indicator"
+        },
+        {
+          "virtual": true,
+          "dataType": "INT",
+          "id": 915,
+          "name": "months_after_first_payment"
+        },
+        {
+          "virtual": true,
+          "dataType": "TEXT",
+          "id": 916,
+          "name": "ACCOUNT_LOB"
+        },
+        {
+          "virtual": true,
+          "dataType": "TEXT",
+          "id": 917,
+          "name": "IMPORT_ID"
+        }
+      ],
+      "id": 67,
+      "name": "Accounts"
+    },
+    "68": {
+      "attributes": [
+        {
+          "virtual": true,
+          "dataType": "INT",
+          "id": 1224,
+          "name": "cmt #"
+        },
+        {
+          "virtual": true,
+          "dataType": "INT",
+          "id": 1225,
+          "name": "cmx #"
+        },
+        {
+          "virtual": true,
+          "dataType": "INT",
+          "id": 1229,
+          "name": "cmt # indicator"
+        },
+        {
+          "virtual": true,
+          "dataType": "INT",
+          "id": 1230,
+          "name": "cmx # indicator"
+        },
+        {
+          "virtual": true,
+          "dataType": "INT",
+          "id": 1231,
+          "name": "bad performance"
+        },
+        {
+          "virtual": true,
+          "dataType": "INT",
+          "id": 1232,
+          "name": "bad performance indicator"
+        },
+        {
+          "virtual": false,
+          "dataType": "INT",
+          "id": 1236,
+          "name": "Good Tag"
+        },
+        {
+          "virtual": true,
+          "dataType": "DATE",
+          "id": 1237,
+          "name": "cdate"
+        },
+        {
+          "virtual": true,
+          "dataType": "INT",
+          "id": 1242,
+          "name": "KNOWN_BAD_PII"
+        },
+        {
+          "virtual": false,
+          "dataType": "FLOAT",
+          "id": 918,
+          "name": "ANNUALINCOME"
+        },
+        {
+          "virtual": false,
+          "dataType": "DATE",
+          "id": 919,
+          "name": "DOB"
+        },
+        {
+          "virtual": false,
+          "dataType": "DATE",
+          "id": 920,
+          "name": "DATE_CIF_OPENED"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 921,
+          "name": "SSN"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 922,
+          "name": "EMAIL_ADDRESS"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 923,
+          "name": "ACCOUNT_ID"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 924,
+          "name": "ACCOUNTNUMBER"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 925,
+          "name": "APPID"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 926,
+          "name": "CUSTOMER_ID"
+        },
+        {
+          "virtual": false,
+          "dataType": "INT",
+          "id": 927,
+          "name": "CB_SCORE"
+        },
+        {
+          "virtual": false,
+          "dataType": "FLOAT",
+          "id": 928,
+          "name": "EMP_INCOME_AMT"
+        },
+        {
+          "virtual": false,
+          "dataType": "INT",
+          "id": 929,
+          "name": "EMP_TIME_EMPLOYED_NUM_MNTH"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 930,
+          "name": "FIRST_NAME"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 931,
+          "name": "STATE"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 932,
+          "name": "ZIP"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 933,
+          "name": "PHONE"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 934,
+          "name": "LAST_NAME"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 935,
+          "name": "ADDRESS_LINE_1"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 936,
+          "name": "CITY"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 937,
+          "name": "BDR_LOAN_ID"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 938,
+          "name": "LOAN_FILE_ID"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 939,
+          "name": "ZIP_MAIL"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 940,
+          "name": "ADDRESS_LINE_1_MAIL"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 941,
+          "name": "ADDRESS_LINE_2"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 942,
+          "name": "ADDRESS_LINE_2_MAIL"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 943,
+          "name": "addressline3"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 944,
+          "name": "APPL_COAPP_CD_ENUM"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 945,
+          "name": "EMP_EMPLOYER_BUS_PHONE"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 946,
+          "name": "EMP_BUS_NAME"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 947,
+          "name": "MOS_AT_ADDR"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 948,
+          "name": "EMP_OCCUPATION_DESC"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 949,
+          "name": "BORROWERCREATEDDATE"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 950,
+          "name": "CITY_MAIL"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 951,
+          "name": "COUNTRY_CODE"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 952,
+          "name": "COUNTRY_MAIL"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 953,
+          "name": "CURRENCY_CODE"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 954,
+          "name": "CUSTOMER_CODE"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 955,
+          "name": "STATE_MAIL"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 956,
+          "name": "MIDDLE_NAME"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 957,
+          "name": "EXTERNAL_CUSTOMER_ID"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 958,
+          "name": "FICO_SCORE_DATE"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 959,
+          "name": "FULL_NAME"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 960,
+          "name": "PHONE2"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 961,
+          "name": "addressline4"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 962,
+          "name": "LOB"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 963,
+          "name": "MOBILENUMBER"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 964,
+          "name": "MARITAL_STATUS"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 965,
+          "name": "SALUTATION"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 966,
+          "name": "NAME_SUFFIX"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 967,
+          "name": "SECONDARY_TAX_ID"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 968,
+          "name": "SECONDARY_HOME_PHONE"
+        },
+        {
+          "virtual": true,
+          "dataType": "INT",
+          "id": 969,
+          "name": "IMPORT_ID"
+        },
+        {
+          "virtual": true,
+          "dataType": "TEXT",
+          "id": 970,
+          "name": "APPID or ACCOUNT_NUMBER"
+        },
+        {
+          "virtual": true,
+          "dataType": "TEXT",
+          "id": 971,
+          "name": "LABEL"
+        },
+        {
+          "virtual": true,
+          "dataType": "TEXT",
+          "id": 972,
+          "name": "MAIL_ADDRESS"
+        },
+        {
+          "virtual": true,
+          "dataType": "TEXT",
+          "id": 973,
+          "name": "PRIMARY_ADDRESS"
+        },
+        {
+          "virtual": true,
+          "dataType": "TEXT",
+          "id": 974,
+          "name": "FIRST_LAST"
+        }
+      ],
+      "id": 68,
+      "name": "People"
+    },
+    "69": {
+      "attributes": [
+        {
+          "virtual": false,
+          "dataType": "FLOAT",
+          "id": 975,
+          "name": "BALANCE"
+        },
+        {
+          "virtual": false,
+          "dataType": "FLOAT",
+          "id": 976,
+          "name": "MONTHLY_BASE_PYMT_AMT"
+        },
+        {
+          "virtual": false,
+          "dataType": "DATE",
+          "id": 977,
+          "name": "ACTIVITY_DT"
+        },
+        {
+          "virtual": false,
+          "dataType": "DATE",
+          "id": 978,
+          "name": "NEXT_PYMT_DUE_DATE"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 979,
+          "name": "ACCOUNT_NUMBER"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 980,
+          "name": "ARRGMNT_ID"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 981,
+          "name": "TITLE_LIEN_REG_STATUS"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 982,
+          "name": "BORROWERID"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 983,
+          "name": "LOB"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 984,
+          "name": "STATUS"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 985,
+          "name": "PROPERTY_ID"
+        },
+        {
+          "virtual": true,
+          "dataType": "TEXT",
+          "id": 986,
+          "name": "IMPORT_ID"
+        }
+      ],
+      "id": 69,
+      "name": "Accounts History"
+    },
+    "70": {
+      "attributes": [
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 993,
+          "name": "CIF"
+        },
+        {
+          "virtual": false,
+          "dataType": "DATE",
+          "id": 994,
+          "name": "APPLICATION_DATE"
+        },
+        {
+          "virtual": false,
+          "dataType": "FLOAT",
+          "id": 995,
+          "name": "FINDECISION_AMT"
+        },
+        {
+          "virtual": false,
+          "dataType": "FLOAT",
+          "id": 996,
+          "name": "VEH_TRADE_VAL_AMT"
+        },
+        {
+          "virtual": false,
+          "dataType": "FLOAT",
+          "id": 997,
+          "name": "MONTHLY_BASE_PYMT_AMT"
+        },
+        {
+          "virtual": false,
+          "dataType": "FLOAT",
+          "id": 998,
+          "name": "TOTAL_DOWN_PAYMENT_AMT"
+        },
+        {
+          "virtual": false,
+          "dataType": "INT",
+          "id": 999,
+          "name": "DLR_NUM"
+        },
+        {
+          "virtual": false,
+          "dataType": "INT",
+          "id": 1000,
+          "name": "VEH_YEAR"
+        },
+        {
+          "virtual": false,
+          "dataType": "INT",
+          "id": 1001,
+          "name": "VEH_MILEAGE"
+        },
+        {
+          "virtual": false,
+          "dataType": "INT",
+          "id": 1002,
+          "name": "VEH_TERM_MNTHS"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1003,
+          "name": "BDR_LOAN_ID"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1004,
+          "name": "PROPERTY_ADDRESS"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1005,
+          "name": "PROPERTY_CITY"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1006,
+          "name": "PROPERTY_STATE"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1007,
+          "name": "PROPERTY_ZIP_CODE"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1008,
+          "name": "LOCK_TMSP"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1009,
+          "name": "ACCOUNT_ID"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1010,
+          "name": "DENIAL_REASON_1"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1011,
+          "name": "DENIAL_REASON_2"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1012,
+          "name": "DENIAL_REASON_3"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1013,
+          "name": "DENIAL_REASON_4"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1014,
+          "name": "DISPOSITION_TYP"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1015,
+          "name": "LOAN_FILE_ID"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1016,
+          "name": "APPL_COAPP_CD_ENUM"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1017,
+          "name": "VEH_TRADE_IND"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1018,
+          "name": "FINDECISION/OUTCOME"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1019,
+          "name": "VEH_MAKE_DESC"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1020,
+          "name": "VEH_MODEL_DESC_ENUM"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1021,
+          "name": "VEH_VIN"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1022,
+          "name": "IP"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1023,
+          "name": "ORIGINATION_CHANNEL"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1024,
+          "name": "SOURCE_INDICATOR"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1025,
+          "name": "RESULT"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1026,
+          "name": "JOINT_OUTCOME"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1027,
+          "name": "LOB"
+        },
+        {
+          "virtual": true,
+          "dataType": "INT",
+          "id": 1028,
+          "name": "import_id"
+        },
+        {
+          "virtual": true,
+          "dataType": "TEXT",
+          "id": 1029,
+          "name": "APPID_LOB"
+        },
+        {
+          "virtual": false,
+          "dataType": "DATE",
+          "id": 987,
+          "name": "APPLICATION_RECEIVED_DT"
+        },
+        {
+          "virtual": false,
+          "dataType": "DATE",
+          "id": 988,
+          "name": "LOAN_FUNDING_DT"
+        },
+        {
+          "virtual": false,
+          "dataType": "DATE",
+          "id": 989,
+          "name": "WITHDRAWN_DT"
+        },
+        {
+          "virtual": false,
+          "dataType": "DATE",
+          "id": 990,
+          "name": "DECLINED_DT"
+        },
+        {
+          "virtual": false,
+          "dataType": "DATE",
+          "id": 991,
+          "name": "DISPOSITION_DT"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 992,
+          "name": "APPID"
+        }
+      ],
+      "id": 70,
+      "name": "Applications"
+    },
+    "71": {
+      "attributes": [
+        {
+          "virtual": false,
+          "dataType": "DATE",
+          "id": 1030,
+          "name": "DATE_OF_BIRTH"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1031,
+          "name": "SSN"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1032,
+          "name": "PHONE_NBR"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1033,
+          "name": "EMPLOYER_PHONE_NBR"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1034,
+          "name": "CELL_PHONE"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1035,
+          "name": "ADDRESS1"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1036,
+          "name": "CREATE_DATE"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1037,
+          "name": "FIRST_NAME"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1038,
+          "name": "LAST_NAME"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1039,
+          "name": "ZIP"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1040,
+          "name": "HIGH_RISK_ID"
+        },
+        {
+          "virtual": true,
+          "dataType": "INT",
+          "id": 1041,
+          "name": "IMPORT_ID"
+        },
+        {
+          "virtual": true,
+          "dataType": "TEXT",
+          "id": 1042,
+          "name": "FIRST_LAST"
+        },
+        {
+          "virtual": true,
+          "dataType": "TEXT",
+          "id": 1043,
+          "name": "ADDRESS"
+        }
+      ],
+      "id": 71,
+      "name": "AUTO PCL"
+    },
+    "72": {
+      "attributes": [
+        {
+          "virtual": false,
+          "dataType": "DATE",
+          "id": 1044,
+          "name": "DATE_OF_CALL"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1045,
+          "name": "ACCOUNT_NUMBER"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1046,
+          "name": "CIF"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1047,
+          "name": "PHONE"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1048,
+          "name": "LOB"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1049,
+          "name": "app_business phone"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1050,
+          "name": "app_phone"
+        },
+        {
+          "virtual": true,
+          "dataType": "INT",
+          "id": 1051,
+          "name": "IMPORT_ID"
+        }
+      ],
+      "id": 72,
+      "name": "Call-In Phones"
+    },
+    "73": {
+      "attributes": [
+        {
+          "virtual": false,
+          "dataType": "DATE",
+          "id": 1052,
+          "name": "BLOCKED_DATE"
+        },
+        {
+          "virtual": false,
+          "dataType": "DATE",
+          "id": 1053,
+          "name": "LAST_CONTACT_DATE"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1054,
+          "name": "CIF"
+        },
+        {
+          "virtual": false,
+          "dataType": "FLOAT",
+          "id": 1055,
+          "name": "TOTAL_DEPOSIT_BALANCE"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1056,
+          "name": "ATTENTION_MSG"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1057,
+          "name": "BLOCKED_REASON"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1058,
+          "name": "LAST_LOGON"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1059,
+          "name": "LOB"
+        },
+        {
+          "virtual": true,
+          "dataType": "INT",
+          "id": 1060,
+          "name": "IMPORT_ID"
+        }
+      ],
+      "id": 73,
+      "name": "People History"
+    },
+    "74": {
+      "attributes": [
+        {
+          "virtual": false,
+          "dataType": "DATE",
+          "id": 1061,
+          "name": "DOB"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1062,
+          "name": "CIF"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1063,
+          "name": "scivantageid"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1064,
+          "name": "SSN"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1065,
+          "name": "ACMID"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1066,
+          "name": "CUPID"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1067,
+          "name": "LEGAL"
+        },
+        {
+          "virtual": true,
+          "dataType": "INT",
+          "id": 1068,
+          "name": "IMPORT_ID"
+        }
+      ],
+      "id": 74,
+      "name": "ACM"
+    },
+    "75": {
+      "attributes": [
+        {
+          "virtual": false,
+          "dataType": "DATE",
+          "id": 1069,
+          "name": "SUBJECT_DOB"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1070,
+          "name": "DATE_CRIME"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1071,
+          "name": "DATE_REPORTED"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1072,
+          "name": "IMPORTED_DATE"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1073,
+          "name": "SUBJECT_SSN"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1074,
+          "name": "SUBJECT_PHONE"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1075,
+          "name": "SUBJECT_ADDRESS"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1076,
+          "name": "ACTUAL_LOSS_AMOUNT"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1077,
+          "name": "ANALYST_CODE"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1078,
+          "name": "ANALYST_COMMENTS"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1079,
+          "name": "AUTO_ID"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1080,
+          "name": "DEVICE_DISPLAY"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1081,
+          "name": "DEVICE_FLASH_VERSION"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1082,
+          "name": "DEVICE_LANGUAGE"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1083,
+          "name": "DEVICE_SOFTWARE"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1084,
+          "name": "DEVICE_SYSTEM_LANGUAGE"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1085,
+          "name": "DEVICE_TIME_ZONE"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1086,
+          "name": "DEVICE_USER_LANGUAGE"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1087,
+          "name": "EMAIL_SUBJECT"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1088,
+          "name": "FRAUD_TYPE"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1089,
+          "name": "IMPORTED_FILE_NAME"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1090,
+          "name": "MARKET"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1091,
+          "name": "MULE_IND"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1092,
+          "name": "SUBJECT_COMPANY"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1093,
+          "name": "SUBJECT_URL"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1094,
+          "name": "SUBJECT_DOMAIN"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1095,
+          "name": "SUBJECT_ACCT"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1096,
+          "name": "SUBJECT_BANK_ROUTING"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1097,
+          "name": "SUBJECT_BANK"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1098,
+          "name": "STOCK_SYMBOL"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1099,
+          "name": "SHARES_NUMBER"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1100,
+          "name": "SWIFT_NUMBER"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1101,
+          "name": "SUBJECT_IP"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1102,
+          "name": "SUBJECT_BROWSER"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1103,
+          "name": "SUBJECT_DEVICE_BROWSER"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1104,
+          "name": "REPORTED_BY"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1105,
+          "name": "TRANSACTION_TYPE"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1106,
+          "name": "SUBJECT_NAME"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1107,
+          "name": "SUBJECT_EMAIL"
+        },
+        {
+          "virtual": true,
+          "dataType": "INT",
+          "id": 1108,
+          "name": "IMPORT_ID"
+        }
+      ],
+      "id": 75,
+      "name": "NCFTA CYFIN"
+    },
+    "-1100": {
+      "attributes": [
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": -1101,
+          "name": "Name"
+        },
+        {
+          "virtual": false,
+          "dataType": "INT",
+          "id": -1102,
+          "name": "Creator"
+        },
+        {
+          "virtual": false,
+          "dataType": "INT",
+          "id": -1103,
+          "name": "CollectionID"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": -1104,
+          "name": "Description"
+        },
+        {
+          "virtual": false,
+          "dataType": "DATE",
+          "id": -1105,
+          "name": "Creation Date"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": -1106,
+          "name": "ResourceID"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": -1107,
+          "name": "External source"
+        }
+      ],
+      "id": -1100,
+      "name": "[DW] Link Charts"
+    },
+    "76": {
+      "attributes": [
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1109,
+          "name": "CIF"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1110,
+          "name": "SCIVANTAGE_ID"
+        },
+        {
+          "virtual": false,
+          "dataType": "DATE",
+          "id": 1111,
+          "name": "RESPONSE_TIME_EDT"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1112,
+          "name": "BITS_MSG_ID"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1113,
+          "name": "DEVICEID"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1114,
+          "name": "IP"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1115,
+          "name": "SYSTEMRESPONSE"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1116,
+          "name": "RISKLEVEL"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1117,
+          "name": "MODELCODE"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1118,
+          "name": "LOB"
+        },
+        {
+          "virtual": true,
+          "dataType": "INT",
+          "id": 1119,
+          "name": "IMPORT_ID"
+        }
+      ],
+      "id": 76,
+      "name": "Logins"
+    },
+    "77": {
+      "attributes": [
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1120,
+          "name": "ADDRESS"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1121,
+          "name": "BANK_ACCOUNT"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1122,
+          "name": "BANK_ROUTING"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1123,
+          "name": "CATEGORY"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1124,
+          "name": "CITY"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1125,
+          "name": "CONTACT"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1126,
+          "name": "FIRST_NAME"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1127,
+          "name": "LAST_NAME"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1128,
+          "name": "ORG_CASE"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1129,
+          "name": "PHONE"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1130,
+          "name": "SSN"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1131,
+          "name": "STATE"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1132,
+          "name": "SUB_CATEGORY"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1133,
+          "name": "ZIP"
+        },
+        {
+          "virtual": false,
+          "dataType": "DATE",
+          "id": 1134,
+          "name": "DATE_ADDED"
+        },
+        {
+          "virtual": false,
+          "dataType": "DATE",
+          "id": 1135,
+          "name": "DOB"
+        },
+        {
+          "virtual": true,
+          "dataType": "INT",
+          "id": 1136,
+          "name": "BA_ID"
+        },
+        {
+          "virtual": true,
+          "dataType": "TEXT",
+          "id": 1137,
+          "name": "FIRST_LAST"
+        },
+        {
+          "virtual": true,
+          "dataType": "TEXT",
+          "id": 1138,
+          "name": "ADDRESS_ZIP"
+        }
+      ],
+      "id": 77,
+      "name": "KNOWN_BAD_PII"
+    },
+    "78": {
+      "attributes": [
+        {
+          "virtual": false,
+          "dataType": "DATE",
+          "id": 1139,
+          "name": "CLOSED_DATE"
+        },
+        {
+          "virtual": false,
+          "dataType": "DATE",
+          "id": 1140,
+          "name": "OPENED_DATE"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1141,
+          "name": "ASSIGNED_GROUP"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1142,
+          "name": "CASE_CATEGORY"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1143,
+          "name": "CASE_NUMBER"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1144,
+          "name": "CUST_NUM"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1145,
+          "name": "CLAIM_DECISION"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1146,
+          "name": "SUB_CATEGORY"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1147,
+          "name": "REFERRAL_METHOD"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1148,
+          "name": "REFERRAL_SOURCE"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1149,
+          "name": "REFERRAL_STRATEGY"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1150,
+          "name": "INCIDENT_CONFIRMED"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1151,
+          "name": "LOB"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1152,
+          "name": "STATUS"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1153,
+          "name": "INVESTIGATOR"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1154,
+          "name": "REG_REPORTS_SUBMITTED_TO_AML"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1155,
+          "name": "NET_LOSS"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1156,
+          "name": "POTENTIAL_LOSS"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1157,
+          "name": "PREVENTED_LOSS"
+        },
+        {
+          "virtual": true,
+          "dataType": "INT",
+          "id": 1158,
+          "name": "IMPORT_ID"
+        },
+        {
+          "virtual": true,
+          "dataType": "INT",
+          "id": 1159,
+          "name": "cmx #"
+        }
+      ],
+      "id": 78,
+      "name": "CMX"
+    },
+    "79": {
+      "attributes": [
+        {
+          "virtual": false,
+          "dataType": "DATE",
+          "id": 1160,
+          "name": "FIRSTTIMEEST"
+        },
+        {
+          "virtual": false,
+          "dataType": "DATE",
+          "id": 1161,
+          "name": "LASTTIMEEST"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1162,
+          "name": "DAY"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1163,
+          "name": "DSTGEO"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1164,
+          "name": "DSTIP"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1165,
+          "name": "FLOWCOUNT"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1166,
+          "name": "SSLHOST"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1167,
+          "name": "UPSTIP"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1168,
+          "name": "UPSTCOUNTRY"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1169,
+          "name": "ORGNAME"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1170,
+          "name": "SOURCE"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1171,
+          "name": "SSLHOST_PS"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1172,
+          "name": "UPSTREAMID"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1173,
+          "name": "USERNAME"
+        },
+        {
+          "virtual": true,
+          "dataType": "INT",
+          "id": 1174,
+          "name": "IMPORT_ID"
+        }
+      ],
+      "id": 79,
+      "name": "MNW FLOW REP"
+    },
+    "80": {
+      "attributes": [
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1175,
+          "name": "ACCOUNT_NUMBER"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1176,
+          "name": "ACTUALCASEID"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1177,
+          "name": "LOBDESC"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1178,
+          "name": "ENTITYID"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1179,
+          "name": "LOB"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1180,
+          "name": "CASEDISPOSITION"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1181,
+          "name": "CASEID"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1182,
+          "name": "CMTALERTTYPE"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1183,
+          "name": "ID"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1184,
+          "name": "CREATIONDATE"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1185,
+          "name": "CMTCaseCategory"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1186,
+          "name": "CRSID"
+        },
+        {
+          "virtual": true,
+          "dataType": "INT",
+          "id": 1187,
+          "name": "IMPORT_ID"
+        }
+      ],
+      "id": 80,
+      "name": "CMT"
+    },
+    "81": {
+      "attributes": [
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1188,
+          "name": "ACCOUNT_NUMBER"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1189,
+          "name": "CUSTOMER_ID"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1190,
+          "name": "SRCNM"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1191,
+          "name": "SASSCORE"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1192,
+          "name": "RISK_SCORE"
+        },
+        {
+          "virtual": true,
+          "dataType": "INT",
+          "id": 1193,
+          "name": "IMPORT_ID"
+        }
+      ],
+      "id": 81,
+      "name": "CRS"
+    },
+    "82": {
+      "attributes": [
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1194,
+          "name": "Alternative names"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1195,
+          "name": "Name"
+        },
+        {
+          "virtual": true,
+          "dataType": "TEXT",
+          "id": 1258,
+          "name": "test1"
+        }
+      ],
+      "id": 82,
+      "name": "Attributes"
+    },
+    "83": {
+      "attributes": [
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1196,
+          "name": "INTERVAL"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1197,
+          "name": "IP"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1198,
+          "name": "SUB_GROUP"
+        },
+        {
+          "virtual": true,
+          "dataType": "INT",
+          "id": 1199,
+          "name": "IMPORT_ID"
+        }
+      ],
+      "id": 83,
+      "name": "MNW IP REP"
+    },
+    "84": {
+      "attributes": [
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1200,
+          "name": "Id"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1201,
+          "name": "Name"
+        }
+      ],
+      "id": 84,
+      "name": "Sets"
+    },
+    "85": {
+      "attributes": [
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1202,
+          "name": "Source Name"
+        }
+      ],
+      "id": 85,
+      "name": "Sources"
+    },
+    "86": {
+      "attributes": [
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1203,
+          "name": "SSN"
+        }
+      ],
+      "id": 86,
+      "name": "SSN"
+    },
+    "87": {
+      "attributes": [
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1204,
+          "name": "carrierName"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1205,
+          "name": "countryCode"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1206,
+          "name": "e164Format"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1207,
+          "name": "geocodeDescription"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1208,
+          "name": "isValidNumber"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1209,
+          "name": "nationalNumber"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1210,
+          "name": "numberType"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1211,
+          "name": "parseFailureReason"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1212,
+          "name": "regionCode"
+        },
+        {
+          "virtual": true,
+          "dataType": "INT",
+          "id": 1243,
+          "name": "# people"
+        },
+        {
+          "virtual": true,
+          "dataType": "INT",
+          "id": 1244,
+          "name": "# people with bad tag"
+        },
+        {
+          "virtual": true,
+          "dataType": "FLOAT",
+          "id": 1245,
+          "name": "% people with bad tags"
+        }
+      ],
+      "id": 87,
+      "name": "Phone Numbers"
+    },
+    "88": {
+      "attributes": [
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1213,
+          "name": "expansion"
+        }
+      ],
+      "id": 88,
+      "name": "ADDRESS"
+    },
+    "89": {
+      "attributes": [
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1214,
+          "name": "house_number"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1215,
+          "name": "postcode"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1216,
+          "name": "road"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1217,
+          "name": "unit"
+        },
+        {
+          "virtual": true,
+          "dataType": "TEXT",
+          "id": 1218,
+          "name": "ADDRESS"
+        }
+      ],
+      "id": 89,
+      "name": "NCFTA_SUBJECT_ADDRESS"
+    },
+    "-90": {
+      "attributes": [
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": -90,
+          "name": "Name"
+        },
+        {
+          "virtual": false,
+          "dataType": "INT",
+          "id": -91,
+          "name": "Owner"
+        },
+        {
+          "virtual": false,
+          "dataType": "LONG_TEXT",
+          "id": -92,
+          "name": "Definition"
+        },
+        {
+          "virtual": false,
+          "dataType": "INT",
+          "id": -93,
+          "name": "Public"
+        }
+      ],
+      "id": -90,
+      "name": "[DW] Polygons"
+    },
+    "90": {
+      "attributes": [
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1233,
+          "name": "IP"
+        }
+      ],
+      "id": 90,
+      "name": "IP_ADDRESSES"
+    },
+    "91": {
+      "attributes": [
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1234,
+          "name": "FIRST_LAST"
+        },
+        {
+          "virtual": false,
+          "dataType": "DATE",
+          "id": 1235,
+          "name": "DOB"
+        }
+      ],
+      "id": 91,
+      "name": "NAME_DOB"
+    },
+    "92": {
+      "attributes": [
+        {
+          "virtual": false,
+          "dataType": "DATE",
+          "id": 1252,
+          "name": "Export date"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1253,
+          "name": "File name"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1254,
+          "name": "Report name"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1255,
+          "name": "UUID"
+        },
+        {
+          "virtual": false,
+          "dataType": "INT",
+          "id": 1256,
+          "name": "DW Source File Id"
+        },
+        {
+          "virtual": false,
+          "dataType": "INT",
+          "id": 1257,
+          "name": "DW Source File Row Number"
+        }
+      ],
+      "id": 92,
+      "name": "[report-sender] Generated reports"
+    },
+    "93": {
+      "attributes": [
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1266,
+          "name": "ID"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1267,
+          "name": "Type"
+        },
+        {
+          "virtual": false,
+          "dataType": "LONG_TEXT",
+          "id": 1268,
+          "name": "Properties"
+        },
+        {
+          "virtual": false,
+          "dataType": "INT",
+          "id": 1269,
+          "name": "Exclude from broken columns?"
+        },
+        {
+          "virtual": false,
+          "dataType": "INT",
+          "id": 1270,
+          "name": "Has connectionTypeId"
+        },
+        {
+          "virtual": false,
+          "dataType": "INT",
+          "id": 1271,
+          "name": "Merged connection?"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1272,
+          "name": "LABEL"
+        },
+        {
+          "virtual": false,
+          "dataType": "INT",
+          "id": 1273,
+          "name": "snapshot_id"
+        }
+      ],
+      "id": 93,
+      "name": "[DW] Dependencies - Vertices 12/30/21 08:42:52 pm"
+    },
+    "94": {
+      "attributes": [
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1274,
+          "name": "a"
+        },
+        {
+          "virtual": false,
+          "dataType": "INT",
+          "id": 1275,
+          "name": "is done"
+        }
+      ],
+      "id": 94,
+      "name": "files-source-test"
+    },
+    "95": {
+      "attributes": [
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1280,
+          "name": "Appid"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1281,
+          "name": "Orig_App"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1282,
+          "name": "Email"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": 1283,
+          "name": "Related_Case"
+        }
+      ],
+      "id": 95,
+      "name": "Net_A_Link_Monitoring"
+    },
+    "-100": {
+      "attributes": [
+        {
+          "virtual": false,
+          "dataType": "INT",
+          "id": -100,
+          "name": "Id"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": -101,
+          "name": "Name"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": -102,
+          "name": "Type"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": -103,
+          "name": "Issue name"
+        },
+        {
+          "virtual": false,
+          "dataType": "DATE",
+          "id": -104,
+          "name": "Date"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": -105,
+          "name": "Issuer"
+        },
+        {
+          "virtual": false,
+          "dataType": "INT",
+          "id": -106,
+          "name": "Issuer id"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": -107,
+          "name": "Details"
+        },
+        {
+          "virtual": false,
+          "dataType": "INT",
+          "id": -108,
+          "name": "Read"
+        },
+        {
+          "virtual": false,
+          "dataType": "INT",
+          "id": -109,
+          "name": "Owner id"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": -110,
+          "name": "Source"
+        },
+        {
+          "virtual": false,
+          "dataType": "INT",
+          "id": -111,
+          "name": "Issue id"
+        },
+        {
+          "virtual": false,
+          "dataType": "INT",
+          "id": -112,
+          "name": "Issue set id"
+        }
+      ],
+      "id": -100,
+      "name": "[DW] Notifications"
+    },
+    "-1000": {
+      "attributes": [
+        {
+          "virtual": true,
+          "dataType": "INT",
+          "id": 1251,
+          "name": "object_id"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": -1001,
+          "name": "Name"
+        },
+        {
+          "virtual": false,
+          "dataType": "INT",
+          "id": -1002,
+          "name": "Owner"
+        },
+        {
+          "virtual": false,
+          "dataType": "INT",
+          "id": -1003,
+          "name": "CollectionID"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": -1004,
+          "name": "Categories"
+        },
+        {
+          "virtual": false,
+          "dataType": "LONG_TEXT",
+          "id": -1005,
+          "name": "Definition"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": -1006,
+          "name": "Dependencies"
+        },
+        {
+          "virtual": false,
+          "dataType": "TEXT",
+          "id": -1007,
+          "name": "Description"
+        },
+        {
+          "virtual": false,
+          "dataType": "DATE",
+          "id": -1008,
+          "name": "Creation Date"
+        }
+      ],
+      "id": -1000,
+      "name": "[DW] UV Analyses"
+    }
+  },
+  "linkTypes": {
+    "1": [
+      {
+        "sourceEntityClassId": 1,
+        "targetEntityClassId": 20,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 9,
+        "name": "user <-> dashboard"
+      }
+    ],
+    "67": [
+      {
+        "sourceEntityClassId": 67,
+        "targetEntityClassId": 80,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 163,
+        "name": "via ACCOUNT_NUMBER"
+      },
+      {
+        "sourceEntityClassId": 67,
+        "targetEntityClassId": 78,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 164,
+        "name": "via ACCOUNT_NUMBER"
+      },
+      {
+        "sourceEntityClassId": 67,
+        "targetEntityClassId": 81,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 165,
+        "name": "via ACCOUNT_NUMBER"
+      },
+      {
+        "sourceEntityClassId": 67,
+        "targetEntityClassId": 72,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 166,
+        "name": "Accounts - Call-In Phones via ACCOUNT_NUMBER"
+      },
+      {
+        "sourceEntityClassId": 67,
+        "targetEntityClassId": 74,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 167,
+        "name": "ACM - Accounts via CIF"
+      },
+      {
+        "sourceEntityClassId": 67,
+        "targetEntityClassId": 78,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 168,
+        "name": "via CIF"
+      },
+      {
+        "sourceEntityClassId": 67,
+        "targetEntityClassId": 72,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 169,
+        "name": "Accounts - Call-In Phones via CIF"
+      },
+      {
+        "sourceEntityClassId": 67,
+        "targetEntityClassId": 68,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 170,
+        "name": "via SECONDARY_CIF_3"
+      }
+    ],
+    "68": [
+      {
+        "sourceEntityClassId": 68,
+        "targetEntityClassId": 68,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 131,
+        "name": "DEPOSITS 2 INVEST via SSN"
+      },
+      {
+        "sourceEntityClassId": 68,
+        "targetEntityClassId": 87,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 140,
+        "name": "via EMP_EMPLOYER_BUS_PHONE"
+      },
+      {
+        "sourceEntityClassId": 68,
+        "targetEntityClassId": 88,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 141,
+        "name": "via MAIL_ADDRESS"
+      },
+      {
+        "sourceEntityClassId": 68,
+        "targetEntityClassId": 87,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 144,
+        "name": "via PHONE"
+      },
+      {
+        "sourceEntityClassId": 68,
+        "targetEntityClassId": 87,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 145,
+        "name": "via PHONE2"
+      },
+      {
+        "sourceEntityClassId": 68,
+        "targetEntityClassId": 88,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 147,
+        "name": "via PRIMARY ADDRESS"
+      },
+      {
+        "sourceEntityClassId": 68,
+        "targetEntityClassId": 87,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 148,
+        "name": "via SECONDARY_HOME_PHONE"
+      },
+      {
+        "sourceEntityClassId": 68,
+        "targetEntityClassId": 86,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 157,
+        "name": "People"
+      },
+      {
+        "sourceEntityClassId": 68,
+        "targetEntityClassId": 68,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 158,
+        "name": "DEPOSITS 2 INVEST via EMAIL"
+      },
+      {
+        "sourceEntityClassId": 68,
+        "targetEntityClassId": 73,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 159,
+        "name": "via CUSTOMER_ID"
+      },
+      {
+        "sourceEntityClassId": 68,
+        "targetEntityClassId": 67,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 178,
+        "name": "via ACCOUNT_NUMBER"
+      },
+      {
+        "sourceEntityClassId": 68,
+        "targetEntityClassId": 81,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 179,
+        "name": "via ACCOUNT_NUMBER"
+      },
+      {
+        "sourceEntityClassId": 68,
+        "targetEntityClassId": 70,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 180,
+        "name": "via APPID"
+      },
+      {
+        "sourceEntityClassId": 68,
+        "targetEntityClassId": 74,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 181,
+        "name": "ACM - People via CIF"
+      },
+      {
+        "sourceEntityClassId": 68,
+        "targetEntityClassId": 67,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 182,
+        "name": "via SECONDARY_CIF_1"
+      },
+      {
+        "sourceEntityClassId": 68,
+        "targetEntityClassId": 67,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 183,
+        "name": "via SECONDARY_CIF_2"
+      },
+      {
+        "sourceEntityClassId": 68,
+        "targetEntityClassId": 78,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 184,
+        "name": "via CIF"
+      },
+      {
+        "sourceEntityClassId": 68,
+        "targetEntityClassId": 72,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 185,
+        "name": "via CIF"
+      },
+      {
+        "sourceEntityClassId": 68,
+        "targetEntityClassId": 76,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 186,
+        "name": "Logins - People via CIF"
+      },
+      {
+        "sourceEntityClassId": 68,
+        "targetEntityClassId": 74,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 187,
+        "name": "ACM - People via SSN"
+      },
+      {
+        "sourceEntityClassId": 68,
+        "targetEntityClassId": 71,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 188,
+        "name": "via SSN"
+      },
+      {
+        "sourceEntityClassId": 68,
+        "targetEntityClassId": 91,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 200,
+        "name": "People"
+      },
+      {
+        "sourceEntityClassId": 68,
+        "targetEntityClassId": 87,
+        "directed": false,
+        "type": "MERGE_BASED",
+        "id": 208,
+        "name": "PHONES"
+      },
+      {
+        "sourceEntityClassId": 68,
+        "targetEntityClassId": 10,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 218,
+        "name": "Related to case"
+      },
+      {
+        "sourceEntityClassId": 68,
+        "targetEntityClassId": 95,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 223,
+        "name": "Net_A_Link_Monitoring"
+      },
+      {
+        "sourceEntityClassId": 68,
+        "targetEntityClassId": 10,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 233,
+        "name": "Created in case"
+      }
+    ],
+    "69": [
+      {
+        "sourceEntityClassId": 69,
+        "targetEntityClassId": 67,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 162,
+        "name": "Accounts - Accounts History via ACCOUNT_NUMBER"
+      }
+    ],
+    "70": [
+      {
+        "sourceEntityClassId": 70,
+        "targetEntityClassId": 67,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 171,
+        "name": "via APPID"
+      },
+      {
+        "sourceEntityClassId": 70,
+        "targetEntityClassId": 78,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 172,
+        "name": "via APPID"
+      },
+      {
+        "sourceEntityClassId": 70,
+        "targetEntityClassId": 76,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 173,
+        "name": "Applications - Logins via CIF"
+      }
+    ],
+    "6": [
+      {
+        "sourceEntityClassId": 6,
+        "targetEntityClassId": 7,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 1,
+        "name": "by script id"
+      },
+      {
+        "sourceEntityClassId": 6,
+        "targetEntityClassId": 9,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 3,
+        "name": "by app image"
+      },
+      {
+        "sourceEntityClassId": 6,
+        "targetEntityClassId": 4,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 192,
+        "name": "OTHER"
+      },
+      {
+        "sourceEntityClassId": 6,
+        "targetEntityClassId": 4,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 220,
+        "name": "IMAGE"
+      },
+      {
+        "sourceEntityClassId": 6,
+        "targetEntityClassId": 4,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 221,
+        "name": "MAIN_PHOTO"
+      },
+      {
+        "sourceEntityClassId": 6,
+        "targetEntityClassId": 10,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 224,
+        "name": "Created in case"
+      },
+      {
+        "sourceEntityClassId": 6,
+        "targetEntityClassId": 10,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 225,
+        "name": "Related to case"
+      }
+    ],
+    "71": [
+      {
+        "sourceEntityClassId": 71,
+        "targetEntityClassId": 88,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 136,
+        "name": "via ADDRESS"
+      },
+      {
+        "sourceEntityClassId": 71,
+        "targetEntityClassId": 87,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 138,
+        "name": "via CELL_PHONE"
+      },
+      {
+        "sourceEntityClassId": 71,
+        "targetEntityClassId": 87,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 139,
+        "name": "via EMPLOYER_PHONE_NBR"
+      },
+      {
+        "sourceEntityClassId": 71,
+        "targetEntityClassId": 87,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 146,
+        "name": "via PHONE_NBR"
+      },
+      {
+        "sourceEntityClassId": 71,
+        "targetEntityClassId": 86,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 154,
+        "name": "AUTO PCL"
+      },
+      {
+        "sourceEntityClassId": 71,
+        "targetEntityClassId": 91,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 202,
+        "name": "AUTO PCL"
+      }
+    ],
+    "7": [
+      {
+        "sourceEntityClassId": 7,
+        "targetEntityClassId": 8,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 2,
+        "name": "by configuration id"
+      },
+      {
+        "sourceEntityClassId": 7,
+        "targetEntityClassId": 21,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 10,
+        "name": "app configuration <-> chart"
+      },
+      {
+        "sourceEntityClassId": 7,
+        "targetEntityClassId": 4,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 199,
+        "name": "OTHER"
+      },
+      {
+        "sourceEntityClassId": 7,
+        "targetEntityClassId": 4,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 212,
+        "name": "DOCUMENT"
+      },
+      {
+        "sourceEntityClassId": 7,
+        "targetEntityClassId": 10,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 226,
+        "name": "Created in case"
+      },
+      {
+        "sourceEntityClassId": 7,
+        "targetEntityClassId": 10,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 227,
+        "name": "Related to case"
+      }
+    ],
+    "72": [
+      {
+        "sourceEntityClassId": 72,
+        "targetEntityClassId": 68,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 132,
+        "name": "via ACCOUNT_NUMBER"
+      },
+      {
+        "sourceEntityClassId": 72,
+        "targetEntityClassId": 87,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 142,
+        "name": "via PHONE"
+      },
+      {
+        "sourceEntityClassId": 72,
+        "targetEntityClassId": 87,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 152,
+        "name": "via app_business phone"
+      },
+      {
+        "sourceEntityClassId": 72,
+        "targetEntityClassId": 87,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 153,
+        "name": "via app_phone"
+      }
+    ],
+    "8": [
+      {
+        "sourceEntityClassId": 8,
+        "targetEntityClassId": 4,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 63,
+        "name": "OTHER"
+      },
+      {
+        "sourceEntityClassId": 8,
+        "targetEntityClassId": 10,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 228,
+        "name": "Related to case"
+      }
+    ],
+    "9": [
+      {
+        "sourceEntityClassId": 9,
+        "targetEntityClassId": 4,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 193,
+        "name": "OTHER"
+      }
+    ],
+    "74": [
+      {
+        "sourceEntityClassId": 74,
+        "targetEntityClassId": 76,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 160,
+        "name": "via CIF"
+      },
+      {
+        "sourceEntityClassId": 74,
+        "targetEntityClassId": 76,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 161,
+        "name": "via scivantageid"
+      }
+    ],
+    "75": [
+      {
+        "sourceEntityClassId": 75,
+        "targetEntityClassId": 89,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 149,
+        "name": "via SUBJECT_ADDRESS"
+      },
+      {
+        "sourceEntityClassId": 75,
+        "targetEntityClassId": 87,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 151,
+        "name": "via SUBJECT_PHONE"
+      },
+      {
+        "sourceEntityClassId": 75,
+        "targetEntityClassId": 86,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 156,
+        "name": "NCFTA CYFIN"
+      },
+      {
+        "sourceEntityClassId": 75,
+        "targetEntityClassId": 68,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 177,
+        "name": "via EMAIL_ADDRESS"
+      },
+      {
+        "sourceEntityClassId": 75,
+        "targetEntityClassId": 68,
+        "directed": false,
+        "type": "LINK_BASED",
+        "id": 191,
+        "name": "via SSN"
+      },
+      {
+        "sourceEntityClassId": 75,
+        "targetEntityClassId": 90,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 198,
+        "name": "NCFTA CYFIN"
+      },
+      {
+        "sourceEntityClassId": 75,
+        "targetEntityClassId": 91,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 201,
+        "name": "NCFTA CYFIN"
+      }
+    ],
+    "76": [
+      {
+        "sourceEntityClassId": 76,
+        "targetEntityClassId": 90,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 195,
+        "name": "Logins"
+      }
+    ],
+    "12": [
+      {
+        "sourceEntityClassId": 12,
+        "targetEntityClassId": 1,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 4,
+        "name": "View <=> User"
+      }
+    ],
+    "77": [
+      {
+        "sourceEntityClassId": 77,
+        "targetEntityClassId": 88,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 137,
+        "name": "via ADDRESS_ZIP"
+      },
+      {
+        "sourceEntityClassId": 77,
+        "targetEntityClassId": 87,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 143,
+        "name": "via PHONE"
+      },
+      {
+        "sourceEntityClassId": 77,
+        "targetEntityClassId": 86,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 155,
+        "name": "KNOWN_BAD_PII"
+      },
+      {
+        "sourceEntityClassId": 77,
+        "targetEntityClassId": 91,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 203,
+        "name": "KNOWN_BAD_PII"
+      }
+    ],
+    "78": [
+      {
+        "sourceEntityClassId": 78,
+        "targetEntityClassId": 68,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 175,
+        "name": "via ACCOUNT_NUMBER"
+      },
+      {
+        "sourceEntityClassId": 78,
+        "targetEntityClassId": 68,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 176,
+        "name": "via APPID"
+      },
+      {
+        "sourceEntityClassId": 78,
+        "targetEntityClassId": 10,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 231,
+        "name": "Related to case"
+      }
+    ],
+    "79": [
+      {
+        "sourceEntityClassId": 79,
+        "targetEntityClassId": 90,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 196,
+        "name": "MNW FLOW REP"
+      }
+    ],
+    "15": [
+      {
+        "sourceEntityClassId": 15,
+        "targetEntityClassId": 3,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 5,
+        "name": "Group <-> Set"
+      }
+    ],
+    "80": [
+      {
+        "sourceEntityClassId": 80,
+        "targetEntityClassId": 68,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 174,
+        "name": "via ACCOUNT_NUMBER"
+      }
+    ],
+    "16": [
+      {
+        "sourceEntityClassId": 16,
+        "targetEntityClassId": 17,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 6,
+        "name": "Base to merged"
+      },
+      {
+        "sourceEntityClassId": 16,
+        "targetEntityClassId": 4,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 14,
+        "name": "OTHER"
+      }
+    ],
+    "17": [
+      {
+        "sourceEntityClassId": 17,
+        "targetEntityClassId": 18,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 7,
+        "name": "Merged to Dependency"
+      },
+      {
+        "sourceEntityClassId": 17,
+        "targetEntityClassId": 4,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 8,
+        "name": "OTHER"
+      }
+    ],
+    "83": [
+      {
+        "sourceEntityClassId": 83,
+        "targetEntityClassId": 90,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 197,
+        "name": "MNW IP REP"
+      }
+    ],
+    "84": [
+      {
+        "sourceEntityClassId": 84,
+        "targetEntityClassId": 82,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 128,
+        "name": "from"
+      },
+      {
+        "sourceEntityClassId": 84,
+        "targetEntityClassId": 85,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 129,
+        "name": "from"
+      }
+    ],
+    "20": [
+      {
+        "sourceEntityClassId": 20,
+        "targetEntityClassId": 22,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 11,
+        "name": "dashboard <-> charts on dashboards"
+      },
+      {
+        "sourceEntityClassId": 20,
+        "targetEntityClassId": 21,
+        "directed": false,
+        "type": "LINK_BASED_WITH_DATA",
+        "id": 13,
+        "name": "dashboard <-> chart"
+      }
+    ],
+    "85": [
+      {
+        "sourceEntityClassId": 85,
+        "targetEntityClassId": 82,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 130,
+        "name": "from"
+      }
+    ],
+    "21": [
+      {
+        "sourceEntityClassId": 21,
+        "targetEntityClassId": 22,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 12,
+        "name": "chart <-> charts on dashboards"
+      },
+      {
+        "sourceEntityClassId": 21,
+        "targetEntityClassId": 4,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 194,
+        "name": "DOCUMENT"
+      }
+    ],
+    "87": [
+      {
+        "sourceEntityClassId": 87,
+        "targetEntityClassId": 10,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 232,
+        "name": "Related to case"
+      }
+    ],
+    "24": [
+      {
+        "sourceEntityClassId": 24,
+        "targetEntityClassId": 23,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 214,
+        "name": "Source"
+      },
+      {
+        "sourceEntityClassId": 24,
+        "targetEntityClassId": 23,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 215,
+        "name": "Target"
+      },
+      {
+        "sourceEntityClassId": 24,
+        "targetEntityClassId": 93,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 216,
+        "name": "[DW] Dependencies - Vertices - [DW] Dependencies - Vertices 12/30/21 08:42:52 pm"
+      },
+      {
+        "sourceEntityClassId": 24,
+        "targetEntityClassId": 23,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 219,
+        "name": "From Connection to Target"
+      }
+    ],
+    "89": [
+      {
+        "sourceEntityClassId": 89,
+        "targetEntityClassId": 88,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 150,
+        "name": "via SUBJECT_ADDRESS"
+      }
+    ],
+    "92": [
+      {
+        "sourceEntityClassId": 92,
+        "targetEntityClassId": 4,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 211,
+        "name": "DOCUMENT"
+      }
+    ],
+    "94": [
+      {
+        "sourceEntityClassId": 94,
+        "targetEntityClassId": 4,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 217,
+        "name": "DOCUMENT"
+      }
+    ],
+    "-1000": [
+      {
+        "sourceEntityClassId": -1000,
+        "targetEntityClassId": 10,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 229,
+        "name": "Created in case"
+      },
+      {
+        "sourceEntityClassId": -1000,
+        "targetEntityClassId": 10,
+        "directed": false,
+        "type": "CONDITION_BASED",
+        "id": 230,
+        "name": "Related to case"
+      }
+    ]
+  }
+}
